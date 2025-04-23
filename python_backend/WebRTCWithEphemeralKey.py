@@ -35,7 +35,8 @@ OPENAI_API_URL = "https://api.openai.com/v1/realtime"
 MODEL_ID = "gpt-4o-realtime-preview-2024-12-17"
 VOICE = "shimmer"  # Or other voices
 DEFAULT_INSTRUCTIONS = "You are a knowledge base assistant.\n\nIn the tools you have the search tool to search through the knowledge base to find relevant information. Respond to the user in a friendly and helpful manner. "
-# Get the ChromaDB vector store instead of Qdrant
+
+# Get the ChromaDB vector store
 vector_store = get_vector_store()
 
 
