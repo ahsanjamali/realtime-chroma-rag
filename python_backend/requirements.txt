@@ -1,0 +1,14 @@
+flask
+flask-cors
+requests
+dotenv
+langchain
+langchain-openai
+langchain-qdrant
+qdrant-client
+langchain-chroma
+langchain-community
+langchain-text-splitters
+chromadb
+werkzeug
+pypdf
